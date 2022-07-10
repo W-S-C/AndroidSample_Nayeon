@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         initBottomNavigation()
     }
 
+
     private fun initBottomNavigation(){
         supportFragmentManager.beginTransaction()
             .replace(R.id.main_frame_layout, OneFragment())
